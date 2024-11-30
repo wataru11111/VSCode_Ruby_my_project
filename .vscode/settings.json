@@ -1,0 +1,28 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [],
+            "env": {
+                "Path": "C:\\Ruby\\uru;C:\\Ruby\\Ruby3.3.4\\bin;${env:Path}"
+            }
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "liveServer.settings.port": 5501,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MySQL",
+            "username": "wataru",
+            "database": "App"
+        }
+    ]
+}
